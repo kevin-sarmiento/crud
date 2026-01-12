@@ -108,7 +108,7 @@ public class Main {
     private static int leerEntero(String mensaje) {
         System.out.print(mensaje);
         while (!sc.hasNextInt()) {
-            System.out.print("Ingrese un número válido: ");
+            System.out.print("Ingrese un número válida: ");
             sc.next();
         }
         int val = sc.nextInt();
